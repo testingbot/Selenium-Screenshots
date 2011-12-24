@@ -1,0 +1,10 @@
+\\psf\home\documents\visual studio 2010\Projects\ScreenShotter\bin\Release\ScreenShotter.exe
+\\psf\home\documents\visual studio 2010\Projects\ScreenShotter\bin\Release\ScreenShotter.pdb
+\\psf\home\documents\visual studio 2010\Projects\ScreenShotter\obj\x86\Release\ResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2010\Projects\ScreenShotter\obj\x86\Release\ScreenShotter.exe
+\\psf\home\documents\visual studio 2010\Projects\ScreenShotter\obj\x86\Release\ScreenShotter.pdb
+Z:\Documents\Visual Studio 2010\Projects\ScreenShotter\obj\x86\Release\ScreenShotter.exe
+Z:\Documents\Visual Studio 2010\Projects\ScreenShotter\obj\x86\Release\ScreenShotter.pdb
+Z:\Documents\Visual Studio 2010\Projects\ScreenShotter\bin\Release\ScreenShotter.exe
+Z:\Documents\Visual Studio 2010\Projects\ScreenShotter\bin\Release\ScreenShotter.pdb
+Z:\Documents\Visual Studio 2010\Projects\ScreenShotter\obj\x86\Release\ResolveAssemblyReference.cache

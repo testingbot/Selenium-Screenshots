@@ -1,0 +1,13 @@
+h1. Create Screenshots of your browser's content with Selenium
+
+At TestingBot.com we use this custom built C# utility to take screenshots of a browser window.
+Right now it will take a screenshot of any browser on Windows. You do not need to install browser add-ons or anything else.
+
+The way it works: we changed a bit of Selenium code that takes care of the browser launching. Once a browser is launched, we retrieve its 
+PID (Process ID) and pass it to our Screenshot program. It will use Windows' PrintWindow function to take a screenshot of the specific program.
+
+In this repository you'll find the C# code which we use, and an example diff of one of the Selenium files we had to patch to make our tool work.
+
+h2. Need help?
+
+Reach out to us on http://testingbot.com and we'll be glad to help you.

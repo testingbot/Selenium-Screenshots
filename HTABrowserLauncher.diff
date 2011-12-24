@@ -1,0 +1,45 @@
+16a20,22
+> import com.sun.jna.*;
+> import java.lang.reflect.Field;
+> 
+22a29,35
+> 
+> import java.io.BufferedReader;
+> import java.io.BufferedWriter;
+> import java.io.InputStreamReader;
+> import java.io.OutputStreamWriter;
+> 
+> 
+25a39,43
+>     static interface Kernel32 extends Library {
+>   public static Kernel32 INSTANCE = (Kernel32) Native.loadLibrary("kernel32", Kernel32.class);
+>     public int GetProcessId(Long hProcess);
+>   }
+> 
+33a53,56
+>   private Process browser;
+> 
+72c100
+<     iexploreProcess.executeAsync();
+---
+>     browser = iexploreProcess.executeAsync();
+76a105,232
+>   public void takePageScreenshot()
+>   {
+>      log.info("Taking custom page screenshot now");
+>      try {
+>         Field f = browser.getClass().getDeclaredField("handle");
+>         f.setAccessible(true);
+>         int pid = Kernel32.INSTANCE.GetProcessId((Long) f.get(browser));
+>         String[] cmdarray = new String[] {
+>              "c:\\screenshot.exe",
+>              Integer.toString(pid),
+>              "screenshot.jpg"
+>         };
+>         CommandLine exe = new CommandLine(cmdarray);
+>         exe.execute();
+>         exe.destroy();
+> 
+>       } catch (Exception e) { log.info(e.getMessage());}
+>   }
+

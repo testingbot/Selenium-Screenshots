@@ -1,0 +1,7 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\ScreenShotter\bin\Debug\ScreenShotter.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\ScreenShotter\bin\Debug\ScreenShotter.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\ScreenShotter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\ScreenShotter\obj\x86\Debug\ScreenShotter.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\ScreenShotter\obj\x86\Debug\ScreenShotter.pdb
+\\psf\home\documents\visual studio 2010\Projects\ScreenShotter\obj\x86\Debug\ScreenShotter.exe
+\\psf\home\documents\visual studio 2010\Projects\ScreenShotter\obj\x86\Debug\ScreenShotter.pdb
